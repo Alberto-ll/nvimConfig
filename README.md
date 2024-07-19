@@ -28,3 +28,12 @@ Nerdtree](https://github.com/preservim/nerdtree) es un plugin el cual brinda un 
 [highlight](https://github.com/tiagofumo/vim-nerdtree-syntax-highlight) es un plugin que añade color a los iconos y textos de nerdtree
 
 ---
+
+#### Atajos de teclados
+
+##### Uso multiple
+
+*Son atajos de teclados que no estan relacionados a plugins.*
+
+- Con control y las flechas me puedo mover entre las ventanas de nvim (tener ventanas separadas o para moverme entre nerdtree y el archivo que estoy editando)
+
