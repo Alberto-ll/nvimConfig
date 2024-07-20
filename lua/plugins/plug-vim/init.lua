@@ -21,6 +21,6 @@ Plug('https://github.com/jiangmiao/auto-pairs')
 
 
 -- Coc
-
+Plug('neoclide/coc.nvim', {branch = 'release'})
 
 vim.call('plug#end')
