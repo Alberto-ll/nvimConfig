@@ -21,7 +21,8 @@ Plug('vim-airline/vim-airline-themes')
 -- pairs
 Plug('https://github.com/jiangmiao/auto-pairs')
 
-
+-- terminal plugin 
+Plug ('akinsho/toggleterm.nvim', {tag = '*'})
 
 -- Coc
 Plug('neoclide/coc.nvim', {branch = 'release'})
