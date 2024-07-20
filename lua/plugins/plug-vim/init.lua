@@ -15,4 +15,12 @@ Plug('https://github.com/tiagofumo/vim-nerdtree-syntax-highlight')
 -- Tema 
 Plug('https://github.com/morhetz/gruvbox')
 
+-- pairs
+Plug('https://github.com/jiangmiao/auto-pairs')
+
+
+
+-- Coc
+
+
 vim.call('plug#end')
