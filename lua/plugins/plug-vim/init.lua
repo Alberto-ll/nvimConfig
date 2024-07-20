@@ -14,6 +14,9 @@ Plug('https://github.com/tiagofumo/vim-nerdtree-syntax-highlight')
 
 -- Tema 
 Plug('https://github.com/morhetz/gruvbox')
+-- status bar
+Plug('vim-airline/vim-airline')
+Plug('vim-airline/vim-airline-themes')
 
 -- pairs
 Plug('https://github.com/jiangmiao/auto-pairs')
