@@ -1,0 +1,8 @@
+require('core.plugins-config.nvim-tree')
+require('core.plugins-config.gruvbox-config')
+require('core.plugins-config.nvim-treesitter')
+require('core.plugins-config.lsp-config')
+require('core.plugins-config.lualine')
+require('core.plugins-config.autocomplete')
+require('core.plugins-config.toggleterm')
+require('core.plugins-config.nvim-mini-config')

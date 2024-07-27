@@ -1,15 +1,6 @@
---vim.cmd('set shell=powershell')
---vim.o.shell = 'powershell.exe'
-require('core.baseConf')
-require('plugins.plug-vim')
-require('plugins.nerdtree')
-require('core.keyMaps')
-require('plugins.theme')
-
-
-require('plugins.Coc')
-require('plugins.airline')
-require('plugins.toggleterm')
-
+require('core.configs')
+require('core.keymaps')
+require('core.plugins')
+require('core.plugins-config')
 
 
