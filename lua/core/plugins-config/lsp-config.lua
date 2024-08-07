@@ -1,6 +1,6 @@
 require("mason").setup()
 require("mason-lspconfig").setup({
-	ensure_installed = { "lua_ls",'pyright','markdown_oxide' }
+	ensure_installed = { "lua_ls",'pyright','markdown_oxide', }
 
 })
 
@@ -29,3 +29,11 @@ require('lspconfig').markdown_oxide.setup{
 on_attach = on_attach,
 capabilities=capabilities
 }
+
+
+require('lspconfig').html.setup{
+on_attach = on_attach,
+capabilities=capabilities
+}
+
+
