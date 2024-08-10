@@ -6,9 +6,6 @@ vim.o.showcmd = true
 vim.o.autowrite=true
 vim.o.cursorline=true
 
--- configuracion para hacer folding
-
-vim.opt.foldmethod = "expr"
-vim.opt.foldexpr = "nvim_treesitter#foldexpr()"
-vim.cmd([[ set nofoldenable]])
+vim.o.title=true
+vim.o.autoindent=true
 

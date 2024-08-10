@@ -6,3 +6,5 @@ require('core.plugins-config.lualine')
 require('core.plugins-config.autocomplete')
 require('core.plugins-config.toggleterm')
 require('core.plugins-config.nvim-mini-config')
+require('core.plugins-config.indent_blankline')
+

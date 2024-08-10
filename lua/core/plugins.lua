@@ -56,6 +56,7 @@ return require('packer').startup(function(use)
  	use 'echasnovski/mini.nvim'
 
 	use "saadparwaiz1/cmp_luasnip"
+	use "lukas-reineke/indent-blankline.nvim"
   -- use 'foo2/bar2.nvim'
 
   -- Automatically set up your configuration after cloning packer.nvim
