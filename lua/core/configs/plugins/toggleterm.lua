@@ -3,6 +3,7 @@ require("toggleterm").setup{
 	open_mapping = [[<C-t>]],
 	 shell = 'powershell',
 	 insert_mappings = true,
+	 shade_terminals = false,
 	 shade_filetypes = {},
 	 hide_numbers = true,
 	 start_in_insert = true,
