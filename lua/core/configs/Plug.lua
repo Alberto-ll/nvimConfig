@@ -37,7 +37,8 @@ Plug('akinsho/toggleterm.nvim',{['tag']= '*'})
 -- tab manager 
 Plug('nanozuki/tabby.nvim')
 
-
+-- autoclose
+Plug('m4xshen/autoclose.nvim')
 
 vim.call('plug#end')
 
