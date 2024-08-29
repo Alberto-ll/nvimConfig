@@ -5,7 +5,6 @@ require("mason-lspconfig").setup({
 
 })
 
-
 local on_attach=function(_,_)
 
 	vim.keymap.set('n','K', vim.lsp.buf.hover,{})
@@ -28,6 +27,4 @@ require("lspconfig").pyright.setup{
 on_attach=on_attach,
 capabilities=capabilities,
 }
-
-
 

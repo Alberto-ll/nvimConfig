@@ -8,3 +8,4 @@ require('core.configs.plugins.lualine')
 require('core.configs.plugins.treesitter')
 require('core.configs.plugins.autoclose')
 
+

@@ -1,6 +1,8 @@
 local cmp = require('cmp')
 
+require'luasnip'.filetype_extend("htmldjango", {"html"})
 require("luasnip.loaders.from_vscode").lazy_load()
+
 
 cmp.setup({
 
