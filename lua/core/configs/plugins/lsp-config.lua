@@ -1,6 +1,6 @@
 require("mason").setup()
 require("mason-lspconfig").setup({
-    ensure_installed = { "lua_ls","pyright"},
+    ensure_installed = { "lua_ls","pyright","ast_grep"},
 
 
 })
@@ -27,4 +27,7 @@ require("lspconfig").pyright.setup{
 on_attach=on_attach,
 capabilities=capabilities,
 }
-
+require("lspconfig").ast_grep.setup{
+on_attach=on_attach,
+capabilities=capabilities,
+}

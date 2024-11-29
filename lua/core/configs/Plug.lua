@@ -40,5 +40,6 @@ Plug('nanozuki/tabby.nvim')
 -- autoclose
 Plug('m4xshen/autoclose.nvim')
 
+
 vim.call('plug#end')
 
