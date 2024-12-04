@@ -14,3 +14,5 @@ key('n','<C-e>', ':NvimTreeToggle<CR>')
 key('n','	',':tabnext<CR>')
 key('n','<C-n>',':tabnew<CR>')
 
+
+

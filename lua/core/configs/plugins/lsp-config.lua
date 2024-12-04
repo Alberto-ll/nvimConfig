@@ -1,6 +1,6 @@
 require("mason").setup()
 require("mason-lspconfig").setup({
-    ensure_installed = { "lua_ls","pyright","ast_grep"},
+    ensure_installed = { "lua_ls","pyright","ast_grep","dockerls"},
 
 
 })
@@ -28,6 +28,10 @@ on_attach=on_attach,
 capabilities=capabilities,
 }
 require("lspconfig").ast_grep.setup{
+on_attach=on_attach,
+capabilities=capabilities,
+}
+require("lspconfig").dockerls.setup{
 on_attach=on_attach,
 capabilities=capabilities,
 }
