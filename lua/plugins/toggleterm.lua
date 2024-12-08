@@ -6,7 +6,7 @@ return{
 		local term = require("toggleterm")
 
 		term.setup({
-			open_mapping = [[<leader>t]],
+			open_mapping = [[<C-t>]],
 	 		shell = 'powershell',
 	 		insert_mappings = true,
 			shade_terminals = false,
