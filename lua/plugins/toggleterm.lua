@@ -7,7 +7,7 @@ return{
 
 		term.setup({
 			open_mapping = [[<C-t>]],
-	 		shell = 'powershell',
+	 		--shell = 'powershell',
 	 		insert_mappings = true,
 			shade_terminals = false,
 	 		shade_filetypes = {},

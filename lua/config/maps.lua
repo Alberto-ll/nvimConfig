@@ -10,5 +10,8 @@ key('n','<C-down>',':wincmd j<CR>')
 key('n','<C-up>',':wincmd k<CR>')
 key('n', '<leader>ll',":Lazy <CR>")
 
-key('n','	',':tabnext<CR>')
-key('n','<leader>nn',':tabnew<CR>')
+--key('n','	',':tabnext<CR>')
+--key('n','<leader>nn',':tabnew<CR>')
+
+key('n','<leader>fb',':BSOpen<CR>')
+key('n','<leader>bc',':BufferClose<CR>')
